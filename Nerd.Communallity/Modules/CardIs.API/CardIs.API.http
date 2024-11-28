@@ -1,0 +1,6 @@
+@CardIs.API_HostAddress = http://localhost:5050
+
+GET {{CardIs.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

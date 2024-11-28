@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FbBKvPZLe5LvDwyM87L75YxB8uzziVq7zDhMQypKAGU=",
+  "Source": "Lotus.API",
+  "BasePath": "_content/Lotus.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

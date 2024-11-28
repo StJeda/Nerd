@@ -1,0 +1,103 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/microservices/lotus/createDocument",
+      "UpstreamPathTemplate": "/nerdgateway/lotus/createDocument",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5290
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/microservices/lotus/getSingleDocument",
+      "UpstreamPathTemplate": "/nerdgateway/lotus/getSingleDocument",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5290
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/microservices/lotus/getDocuments",
+      "UpstreamPathTemplate": "/nerdgateway/lotus/getDocuments",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5290
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/microservices/lotus/getGuid",
+      "UpstreamPathTemplate": "/nerdgateway/lotus/getGuid",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5290
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/microservices/lotus/readDebts",
+      "UpstreamPathTemplate": "/nerdgateway/lotus/readDebts",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5290
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/microservices/cardis/checkCard",
+      "UpstreamPathTemplate": "/nerdgateway/cardis/checkCard",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/microservices/cardis/fillCard",
+      "UpstreamPathTemplate": "/nerdgateway/cardis/fillCard",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5050
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/microservices/cardis/withdraw",
+      "UpstreamPathTemplate": "/nerdgateway/cardis/withdraw",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5050
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5000"
+  }
+}

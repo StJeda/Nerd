@@ -1,0 +1,12 @@
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Domain\bin\Debug\net8.0\Nerd.Domain.deps.json
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Domain\bin\Debug\net8.0\Nerd.Domain.dll
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Domain\bin\Debug\net8.0\Nerd.Domain.pdb
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Domain\obj\Debug\net8.0\Nerd.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Domain\obj\Debug\net8.0\Nerd.Domain.AssemblyInfoInputs.cache
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Domain\obj\Debug\net8.0\Nerd.Domain.AssemblyInfo.cs
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Domain\obj\Debug\net8.0\Nerd.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Domain\obj\Debug\net8.0\Nerd.Domain.dll
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Domain\obj\Debug\net8.0\refint\Nerd.Domain.dll
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Domain\obj\Debug\net8.0\Nerd.Domain.pdb
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Domain\obj\Debug\net8.0\ref\Nerd.Domain.dll
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Domain\obj\Debug\net8.0\Nerd.Domain.csproj.AssemblyReference.cache

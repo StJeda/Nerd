@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lotus.API</name>
+    </assembly>
+    <members>
+        <member name="M:Nerd.Lotus.API.Endpoints.EndpointsExtensions.CreateDocument(Nerd.Core.Commands.CreateDocumentCommand,System.String,System.String,System.DateTime,MediatR.ISender)">
+             <summary>
+             Creating a document in Lotus:
+             </summary>
+             <returns><see cref="T:Nerd.Domain.DTOs.CreateDocumentResponse"/> model</returns>
+             <remarks>
+             Sample request 
+            
+                 {
+                     "documentId": "a1b2c3d4-e5f6-7890-1234-56789abcdef0",
+                     "payerName": "Yarmolenko M.O",
+                     "debtSeria": "54323344",
+                     "amount": 100,
+                     "merchantName": "NerdMerchant"
+                 }
+             
+            </remarks>
+            
+        </member>
+    </members>
+</doc>

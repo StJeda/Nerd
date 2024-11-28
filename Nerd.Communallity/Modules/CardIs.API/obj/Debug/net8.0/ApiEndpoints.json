@@ -1,0 +1,83 @@
+[
+  {
+    "ContainingType": "CardIs.API.Endpoints.EndpointsExtensions",
+    "Method": "CheckCardAsync",
+    "RelativePath": "microservices/cardis/checkCard",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "Nerd.Core.Queries.CheckCardQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Nerd.Domain.DTOs.CheckCardResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "cards"
+    ]
+  },
+  {
+    "ContainingType": "CardIs.API.Endpoints.EndpointsExtensions",
+    "Method": "FillCardAsync",
+    "RelativePath": "microservices/cardis/fillCard",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Nerd.Core.Commands.FillCardByCardCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Nerd.Domain.DTOs.PayMoneyResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "cards"
+    ]
+  },
+  {
+    "ContainingType": "CardIs.API.Endpoints.EndpointsExtensions",
+    "Method": "WithdrawByCardAsync",
+    "RelativePath": "microservices/cardis/withdraw",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Nerd.Core.Commands.WithdrawByCardCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Nerd.Domain.DTOs.PayMoneyResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "cards"
+    ]
+  }
+]

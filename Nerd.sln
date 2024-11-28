@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2BBFFF2B-3498-4AE1-9D37-185FFB61BAED}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nerd.Communallity", "Nerd.Communallity", "{2F7E2A48-C8CB-41F8-85DC-86159AE3994E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FFB500C0-194B-467F-916D-2CFEC4355388}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api.Gateway", "Api.Gateway", "{FEEE2184-BB7B-4D8C-BC62-8C1A6C743EF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{E5CC2546-8050-42CA-AE00-EC155DB898B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotus.API", "Nerd.Communallity\Modules\Lotus.API\Lotus.API.csproj", "{EA17D905-9AB8-4519-804B-6CDBA99B905A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardIs.API", "Nerd.Communallity\Modules\CardIs.API\CardIs.API.csproj", "{473EB20C-1476-4CE0-BFC8-1E5E6ED0A07A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nerd.Infrastructure", "Nerd.Communallity\Modules\Nerd.Infrastructure\Nerd.Infrastructure.csproj", "{F4706DC1-7DDD-405F-842F-6C503FF54063}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nerd.Core", "Nerd.Communallity\Modules\Nerd.Core\Nerd.Core.csproj", "{772C0949-BEC8-4A89-8BF4-7E41CF3AADF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nerd.Domain", "Nerd.Communallity\Modules\Nerd.Domain\Nerd.Domain.csproj", "{8438456D-DFA5-439B-9C5A-C903EF8BB986}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nerd.DocumentWorker", "Nerd.Communallity\Modules\Nerd.DocumentCreator\Nerd.DocumentWorker.csproj", "{59998763-2680-4737-8610-3C596E66C885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nerd.Gate", "Nerd.Communallity\Api\Nerd.Gate\Nerd.Gate.csproj", "{111FE801-2716-4F34-A8EF-8471FF8C558F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA17D905-9AB8-4519-804B-6CDBA99B905A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA17D905-9AB8-4519-804B-6CDBA99B905A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA17D905-9AB8-4519-804B-6CDBA99B905A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA17D905-9AB8-4519-804B-6CDBA99B905A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473EB20C-1476-4CE0-BFC8-1E5E6ED0A07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473EB20C-1476-4CE0-BFC8-1E5E6ED0A07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473EB20C-1476-4CE0-BFC8-1E5E6ED0A07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473EB20C-1476-4CE0-BFC8-1E5E6ED0A07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4706DC1-7DDD-405F-842F-6C503FF54063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4706DC1-7DDD-405F-842F-6C503FF54063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4706DC1-7DDD-405F-842F-6C503FF54063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4706DC1-7DDD-405F-842F-6C503FF54063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772C0949-BEC8-4A89-8BF4-7E41CF3AADF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772C0949-BEC8-4A89-8BF4-7E41CF3AADF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772C0949-BEC8-4A89-8BF4-7E41CF3AADF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772C0949-BEC8-4A89-8BF4-7E41CF3AADF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8438456D-DFA5-439B-9C5A-C903EF8BB986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8438456D-DFA5-439B-9C5A-C903EF8BB986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8438456D-DFA5-439B-9C5A-C903EF8BB986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8438456D-DFA5-439B-9C5A-C903EF8BB986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59998763-2680-4737-8610-3C596E66C885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59998763-2680-4737-8610-3C596E66C885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59998763-2680-4737-8610-3C596E66C885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59998763-2680-4737-8610-3C596E66C885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111FE801-2716-4F34-A8EF-8471FF8C558F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111FE801-2716-4F34-A8EF-8471FF8C558F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111FE801-2716-4F34-A8EF-8471FF8C558F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111FE801-2716-4F34-A8EF-8471FF8C558F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFB500C0-194B-467F-916D-2CFEC4355388} = {2F7E2A48-C8CB-41F8-85DC-86159AE3994E}
+		{FEEE2184-BB7B-4D8C-BC62-8C1A6C743EF3} = {FFB500C0-194B-467F-916D-2CFEC4355388}
+		{E5CC2546-8050-42CA-AE00-EC155DB898B4} = {FFB500C0-194B-467F-916D-2CFEC4355388}
+		{EA17D905-9AB8-4519-804B-6CDBA99B905A} = {E5CC2546-8050-42CA-AE00-EC155DB898B4}
+		{473EB20C-1476-4CE0-BFC8-1E5E6ED0A07A} = {E5CC2546-8050-42CA-AE00-EC155DB898B4}
+		{F4706DC1-7DDD-405F-842F-6C503FF54063} = {E5CC2546-8050-42CA-AE00-EC155DB898B4}
+		{772C0949-BEC8-4A89-8BF4-7E41CF3AADF7} = {E5CC2546-8050-42CA-AE00-EC155DB898B4}
+		{8438456D-DFA5-439B-9C5A-C903EF8BB986} = {E5CC2546-8050-42CA-AE00-EC155DB898B4}
+		{59998763-2680-4737-8610-3C596E66C885} = {E5CC2546-8050-42CA-AE00-EC155DB898B4}
+		{111FE801-2716-4F34-A8EF-8471FF8C558F} = {FEEE2184-BB7B-4D8C-BC62-8C1A6C743EF3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92470A48-946C-4F6B-ADA0-9B7775AE4C74}
+	EndGlobalSection
+EndGlobal

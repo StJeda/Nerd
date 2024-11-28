@@ -1,0 +1,17 @@
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\bin\Debug\net8.0\Nerd.Infrastructure.deps.json
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\bin\Debug\net8.0\Nerd.Infrastructure.dll
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\bin\Debug\net8.0\Nerd.Infrastructure.pdb
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\bin\Debug\net8.0\Nerd.Domain.dll
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\bin\Debug\net8.0\Nerd.Domain.pdb
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\obj\Debug\net8.0\Nerd.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\obj\Debug\net8.0\Nerd.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\obj\Debug\net8.0\Nerd.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\obj\Debug\net8.0\Nerd.Infrastructure.AssemblyInfo.cs
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\obj\Debug\net8.0\Nerd.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\obj\Debug\net8.0\Nerd.Inf.65E2CD05.Up2Date
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\obj\Debug\net8.0\Nerd.Infrastructure.dll
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\obj\Debug\net8.0\refint\Nerd.Infrastructure.dll
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\obj\Debug\net8.0\Nerd.Infrastructure.pdb
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\obj\Debug\net8.0\ref\Nerd.Infrastructure.dll
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\bin\Debug\net8.0\Nerd.Core.dll
+C:\Users\kagucuti\source\repos\Nerd\Nerd.Communallity\Modules\Nerd.Infrastructure\bin\Debug\net8.0\Nerd.Core.pdb

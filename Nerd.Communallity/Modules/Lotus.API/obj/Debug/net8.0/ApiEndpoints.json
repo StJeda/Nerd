@@ -1,0 +1,140 @@
+[
+  {
+    "ContainingType": "Nerd.Lotus.API.Endpoints.EndpointsExtensions",
+    "Method": "CreateDocument",
+    "RelativePath": "microservices/lotus/createDocument",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Nerd.Core.Commands.CreateDocumentCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "payerCard",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "PIN",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "yyMM",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Nerd.Domain.DTOs.CreateDocumentResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "documents"
+    ]
+  },
+  {
+    "ContainingType": "Nerd.Lotus.API.Endpoints.EndpointsExtensions",
+    "Method": "GetDocuments",
+    "RelativePath": "microservices/lotus/getDocuments",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Nerd.Domain.DTOs.CreateDocumentResponse[]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "documents"
+    ]
+  },
+  {
+    "ContainingType": "Nerd.Lotus.API.Endpoints.EndpointsExtensions",
+    "Method": "GetGuid",
+    "RelativePath": "microservices/lotus/getGuid",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "documents"
+    ]
+  },
+  {
+    "ContainingType": "Nerd.Lotus.API.Endpoints.EndpointsExtensions",
+    "Method": "GetSingleDocument",
+    "RelativePath": "microservices/lotus/getSingleDocument",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Nerd.Domain.DTOs.CreateDocumentResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "documents"
+    ]
+  },
+  {
+    "ContainingType": "Nerd.Lotus.API.Endpoints.EndpointsExtensions",
+    "Method": "ReadFromPathDebts",
+    "RelativePath": "microservices/lotus/readDebts",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "path",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Nerd.Domain.DTOs.OperationResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "documents"
+    ]
+  }
+]
